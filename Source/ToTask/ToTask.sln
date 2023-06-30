@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F1EC29F8-8834-40ED-A3CD-227F0923DE85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{702DFC02-2025-4F6C-BEE2-EA6ED87E963A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToTask.Services.ToDoList.Api", "..\Services\ToDoList\ToTask.Services.ToDoList.Api\ToTask.Services.ToDoList.Api.csproj", "{C4108950-2A83-443A-8A3D-84D76C756B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4108950-2A83-443A-8A3D-84D76C756B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4108950-2A83-443A-8A3D-84D76C756B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4108950-2A83-443A-8A3D-84D76C756B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4108950-2A83-443A-8A3D-84D76C756B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{702DFC02-2025-4F6C-BEE2-EA6ED87E963A} = {F1EC29F8-8834-40ED-A3CD-227F0923DE85}
+		{C4108950-2A83-443A-8A3D-84D76C756B1F} = {702DFC02-2025-4F6C-BEE2-EA6ED87E963A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC49E5F-691C-4DB4-BB94-CE4981A8EBB3}
+	EndGlobalSection
+EndGlobal
